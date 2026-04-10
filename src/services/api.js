@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL ||
+'https://placement-backend-1-9jfq.onrender.com';
+//  'http://localhost:8080/api';
 
 // Create axios instance with default config
 const api = axios.create({
